@@ -3,7 +3,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-image: url("Eliska Bgn.png");
+    background-image: url("images/Eliska Bgn.png");
     background-attachment: fixed;
 }
 
@@ -61,6 +61,7 @@ main {
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 3rem;
+    border: solid 5px #ffffff;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
@@ -122,6 +123,10 @@ i.fa {
     font-weight: 550;
     max-width: 100px;
     
+}
+
+.iconBtn {
+    margin-left: 4px !important;
 }
 
 .MenuUp a:hover {
@@ -189,8 +194,6 @@ i.fa {
         padding: 0.2rem;
     }
 
-   
-
     .MenuDown button {
         font-size: 12px;
         padding: 0.2rem;
@@ -230,58 +233,7 @@ i.fa {
         text-align: center;
     
     }
-
 }
-/*Post Old layout {.posts {
-    box-sizing: border-box;
-    display: block;
-    padding: 1rem;
-    margin: 1rem;
-    margin-top: 75px;
-    background-color: white;
-    list-style: none;
-    border: solid 2px black;
-    position: static;
-}
-.posts h2 {
-    background-color: #cacfd2;
-    border: 2px black solid;
-    border-radius: 20px;
-    font-family: Itim;
-    padding: 0.4rem;
-    font-size: 20px;
-    position: static;
-    margin: 0;
-    
-}
-
-.posts p {
-    border: solid #cacfd2 2px;
-    font-family: Itim;
-    border-radius: 8px;
-    margin-top: 0.2rem;
-    background-color: #d6dbdf;
-}
-
-
-
-.Postimage {
-    box-sizing: border-box;
-
-    width: 100%;
-    padding: 0rem;
-    
-    border-radius: 20px;
-}
-
-
-
-body {
-    margin: 0%;
-    background-color: #d6dbdf;
-    
-}}*/
-
 
 @media screen and ( max-width: 1200px) and (min-width:700px) {
     

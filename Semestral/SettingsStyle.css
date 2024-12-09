@@ -1,5 +1,5 @@
 body {
-    background-image: url("Eliska Bgn.png");
+    background-image: url("images/Eliska Bgn.png");
     background-attachment: fixed;
 }
 
@@ -60,6 +60,10 @@ body {
 i.fa {
     margin: 2px;
 
+}
+
+.iconBtn {
+    margin-left: 4px !important;
 }
 
 .MenuUp div {

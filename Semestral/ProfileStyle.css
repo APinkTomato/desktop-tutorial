@@ -5,6 +5,10 @@ i.fa {
 
 }
 
+.iconBtn {
+    margin-left: 4px !important;
+}
+
 .MenuUp div {
     text-align: center;
     padding: 0.4rem;
@@ -101,7 +105,7 @@ main {
     height: 100%;
     margin: 0;
     position: relative;
-    background-image: url("Eliska Bgn.png");
+    background-image: url("images/Eliska Bgn.png");
     width: 100%;
     
 }

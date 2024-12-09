@@ -60,27 +60,27 @@
        
         <div>
             <div class="loginFloat">
-                <form class="floatContainer">
+                <div class="floatContainer">
     
                     <div class="unameDiv">
-                        <label style="font-family: Open Sans, sans-serif; font-size: 16px; color: rgb(0, 0, 0);text-shadow: 0px 1px black;"  id="uname"><b>Username</b></label>
+                        <label style="font-family: Open Sans, sans-serif; font-size: 16px; color: rgb(0, 0, 0);text-shadow: 0px 1px black;"><b>Username</b></label>
                         <input style ="border-radius: 24px; padding-left:5px; border: solid 2px black" type="text" placeholder="Enter Username" id="uname" required>
                     </div>
     
                     <div class="paswDiv">
-                        <label style="font-family: Open Sans, sans-serif; font-size: 16px;color: rgb(0, 0, 0);text-shadow: 0px 1px black;" id="psw"><b>Password</b></label>
+                        <label style="font-family: Open Sans, sans-serif; font-size: 16px;color: rgb(0, 0, 0);text-shadow: 0px 1px black;"><b>Password</b></label>
                         <input style="border-radius: 24px; padding-left:5px;border: solid 2px black" type="password" placeholder="Enter Password" id="psw" required>
                     </div>  
     
                     <div class="buttonDiv"> <!--sort of works?-->
-                        <button class="loginButton" id="loginbutton" type="submit"><i class="fa fa-paw" style="font-size: 20px; padding-right: 15px;"></i>Log-in<i class="fa fa-paw" style="font-size: 20px;padding-left: 15px;"></i></button>
+                        <button class="loginButton" id="loginbutton"><i class="fa fa-paw" style="font-size: 20px; padding-right: 15px;"></i>Log-in<i class="fa fa-paw" style="font-size: 20px;padding-left: 15px;"></i></button>
                     </div>
     
                     <div class="register">
                         <button>Don't have an account?</button>
                     </div> 
     
-                </form>
+                </div>
             </div>
         </div>
     </main>
@@ -127,14 +127,14 @@
         //takes me to main website without checking if i even entered a pasword
         document.getElementById('loginbutton').addEventListener('click', function () {
            // Get the values of the username and password fields
-            const username = document.getElementById('uname');
-            const password = document.getElementById('psw');
+            var username = document.getElementById('uname');
+            var password = document.getElementById('psw');
             
-
             // Check if both fields are filled
-            if (username === '' || password === '') {
+            if (username.value == '' || password.value == '') {
                 alert('Please enter both a username and a password.');
             } else {
+                alert("mom");
                 // Redirect to MainLayout.html if both fields are filled
                 window.location.href = "MainLayout.html";
             }
