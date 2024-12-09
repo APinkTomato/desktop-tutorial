@@ -54,6 +54,7 @@ main {
 .masonry-item p {
     font-family: "Sour Gummy", sans-serif;
     display: grid;
+    width: 93%;
     margin: 0;
     padding-top: 10px; /* Space between image and text */
     color: #333; /* Text color */
